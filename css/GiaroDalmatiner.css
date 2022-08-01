@@ -260,6 +260,24 @@ body {
 	}
 }
 
+.hero-image-fiama {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/Header/EI6A7985web_2.png");
+  height: 400px;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding-top: 20px;
+  margin-bottom: 3rem;
+}
+
+@media screen and (max-width: 768px){
+	.hero-image-fiama {
+		background-position: center;
+		background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/Header/EI6A7985web.jpg");
+	}
+}
+
 .hero-text {
   color: white;
 }
