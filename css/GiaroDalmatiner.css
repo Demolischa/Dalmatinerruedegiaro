@@ -287,9 +287,9 @@ body {
 }
 
 .hero-image-zusammen {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/Header/neu/20221016_165245_2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/Header/neu/20241117_131809.jpg");
   height: 400px;
-  background-position: bottom;
+  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -299,8 +299,8 @@ body {
 
 @media screen and (max-width: 768px) {
   .hero-image-zusammen {
-    background-position: bottom;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/Header/neu/20221016_165245_3.jpg");
+    background-position: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url("../images/Header/neu/20241117_131809_2.jpg");
   }
 }
 
